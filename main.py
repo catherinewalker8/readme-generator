@@ -1,4 +1,4 @@
-import InquirerPy
+from InquirerPy import prompt
 
 # Questions for the README file
 # Project Title
@@ -18,6 +18,7 @@ questions = [
         "MIT License", "Apache License 2.0", "GNU GPL v3", "GNU LGPL v3", 
         "Mozilla Public License 2.0", "Creative Commons", "Unlicensed"]},
     {"type": "input", "name": "author-name", "message": "What is the name of the author?"},
-    {"type": "input", "name": "contact-info", "message": "Provide some contact imformation"}
+    {"type": "input", "name": "contact-info", "message": "Provide some contact imformation"},
 ]
 
+answers = prompt(questions)
