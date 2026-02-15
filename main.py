@@ -22,3 +22,12 @@ questions = [
 ]
 
 answers = prompt(questions)
+
+print(answers)
+print(answers["project-title"])
+
+# with open("README.md", "w") as file:
+#     file.write(answers)
+
+# with open("README.md") as file:
+#     print(file.read())
