@@ -1,14 +1,14 @@
-# asdasd
-*asdasd*- 
-*asdasd*
+# README.md Generator
+*Catherine Walker*- 
+*catherinewalker008@gmail.com*
 
-asdasd
+This code generates a README.md file for any project to efficiently create a professional github portfolio.
 
 ## Installation Instructions
-asdasd
+Clone the code locally.
 
 ## Usage Information
-asdasd
+Python main.py
 
 ## License
 MIT License
