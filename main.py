@@ -1,6 +1,4 @@
 from rich.console import Console
-import time
-from rich.progress import track
 import questions
 import filewrite
 
@@ -17,12 +15,9 @@ console = Console()
 
 def main():
     console.print("[bold blue] Welcome to the README.md generator![/bold blue]")
-    for example in  track(questions, total=len(answers)):
-        time.sleep(1)
-        print(example)
     answers = questions.ask_questions()
     filewrite.write_readme(answers)
-    console.print("README.md file completed!")
+    console.print("[bold blue] README.md file completed! [/bold blue]")
 
 if __name__ == "__main__":
     main()
